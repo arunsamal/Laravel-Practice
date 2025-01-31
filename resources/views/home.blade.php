@@ -1,5 +1,5 @@
 @php
     if (DB::connection()->getPdo()) {
-       echo "Successfully connected=".DB::connection()->getDatabaseName();
+       echo "Successfully connected to my database=".DB::connection()->getDatabaseName();
     }
 @endphp
